@@ -6,18 +6,25 @@
   <script src="https://cesium.com/downloads/cesiumjs/releases/1.132/Build/Cesium/Cesium.js"></script>
   <link href="https://cesium.com/downloads/cesiumjs/releases/1.132/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
   <script type="module" src="./js/index.js"></script>
-  <title>CesiumJS Quickstart</title>
+  <title>CesiumJS Flight Tracker</title>
   <style>
     * {
       padding: 0;
       margin: 0;
       box-sizing: border-box;
     }
+
+    .main {
+      height: 100vh;
+      width: 100%;
+    }
   </style>
 </head>
 <body>
   <!-- all cesium data loded in this div -->
-  <div id="cesiumContainer"></div>
+  <div class="main">
+    <div id="cesiumContainer"></div>
+  </div>
   
  </div>
 </body>
